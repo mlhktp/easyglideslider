@@ -1,0 +1,23 @@
+{
+  "name": "easyglideslider",
+  "version": "1.0.0",
+  "description": "Easy Glide Slider is a free and user-friendly WordPress plugin that brings the power of GlideJS to effortlessly customize stunning image carousels and slideshows on your website.",
+  "main": "easyglideslidermain.js",
+  "scripts": {
+    "build": "wp-scripts start",
+    "start": "wp-scripts start src/easyglideslidermain.js src/easyglideoneslide.js src/GlideJS.js",
+    "dev": "wp-scripts start",
+    "devFast": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Melih Aktop",
+  "license": "ISC",
+  "dependencies": {
+    "@glidejs/glide": "^3.6.0",
+    "@wordpress/blocks": "*",
+    "@wordpress/data": "^9.8.0",
+    "@wordpress/icons": "^9.29.0",
+    "@wordpress/scripts": "*"
+  }
+}
