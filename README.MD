@@ -1,7 +1,7 @@
 # Easy Glide Slider WordPress Plugin
 
-[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/easyglidesliderplugin)](https://wordpress.org/plugins/easyglidesliderplugin/)
-[![License](https://img.shields.io/github/license/your-username/easy-glide-slider)](LICENSE)
+[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/easy-glide-slider)](https://wordpress.org/plugins/easy-glide-slider/)
+[![License](https://img.shields.io/github/license/mlhktp/easyglideslider)](LICENSE)
 
 Easy Glide Slider is a free WordPress plugin that utilizes Glide.js to create beautiful and interactive sliders in Gutenberg blocks.
 
@@ -71,9 +71,6 @@ Easy Glide Slider is licensed under the [GNU General Public License v2.1](https:
 
 If you find this plugin useful and would like to support its development, you can buy me a coffee [here](https://bmc.link/melih.aktop).
 
-## Privacy Policy
-
-(Optional) If your plugin collects user data, provide a link to your privacy policy here.
 
 ---
 
@@ -83,6 +80,6 @@ You can find the code for the Easy Glide Slider plugin in the [GitHub repository
 
 ### Acknowledgments
 
-- Easy Glide Slider is built using the Glide.js library (link to Glide.js).
+- Easy Glide Slider is built using the Glide.js library (https://glidejs.com/).
 
 Thank you for using Easy Glide Slider! We hope you enjoy creating beautiful sliders for your WordPress website. If you have any feedback or suggestions, please let us know!
