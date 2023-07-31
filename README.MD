@@ -77,7 +77,7 @@ The Easy Glide Slider plugin provides a wide range of customization options to t
 
 ## Support and Contributions
 
-If you encounter any issues or have questions, please feel free to open an issue on [GitHub](https://github.com/mlhktp/easyglideslider/issues) or contact us via email at (aktopmelih@gmail.com).
+If you encounter any issues or have questions, please feel free to open an issue on [GitHub](https://github.com/mlhktp/easyglideslider/issues).
 
 Contributions to the Easy Glide Slider plugin are welcome. If you'd like to contribute, please fork the [GitHub repository](https://github.com/mlhktp/easyglideslider) and open a pull request.
 
