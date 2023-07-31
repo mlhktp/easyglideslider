@@ -30,7 +30,7 @@ Easy Glide Slider is a free WordPress plugin that utilizes Glide.js to create be
 
 ## Installation
 
-1. Download the plugin ZIP file from the [releases section](link-to-your-releases-page) of the GitHub repository.
+1. Download the plugin ZIP file from the [releases section](https://github.com/mlhktp/easyglideslider/releases/tag/v1.0) of the GitHub repository.
 2. Log in to your WordPress admin panel.
 3. Navigate to **Plugins** > **Add New**.
 4. Click the **Upload Plugin** button and choose the downloaded ZIP file.
