@@ -24,12 +24,12 @@ registerBlockType("easyglidesliderplugin/easyglide-slider", {
   attributes: {
     align: { type: "string", default: "full" },
     type: { type: "string", default: "carousel" },
-    startAtValue: { type: "number", default: 0 },
     perViewValue: { type: "number", default: 1 },
+    startAtValue: { type: "number", default: 0 },
     focusAtCentered: { type: "boolean", default: false },
-    focusAtValue: { type: "number", default: 20 },
+    focusAtValue: { type: "number", default: 0 },
     gap: { type: "number", default: 10 },
-    autoplay: { type: "number", default: 0 },
+    autoplay: { type: "number", default: false },
     hoverpause: { type: "boolean", default: true },
     keyboard: { type: "boolean", default: true },
     bound: { type: "boolean", default: false },
@@ -88,8 +88,8 @@ function EditComponent(props) {
               help="Start at specific slide number defined with zero-based index."
               value={attributes.startAtValue}
               onChange={(value) => setAttributes({ startAtValue: value })}
-              min={1}
-              max={slideCount}
+              min={0}
+              max={slideCount-1}
               step={1}
             />
           </PanelRow>
@@ -108,12 +108,12 @@ function EditComponent(props) {
             <RangeControl
               label="Focus at"
               help="Focus currently active slide at a specified position in the track. Available inputs:
-          'center' - current slide will be always focused at the center of a track,
-          1,2,3... - current slide will be focused on the specified zero-based index."
+                    'center' - current slide will be always focused at the center of a track,
+                    1,2,3... - current slide will be focused on the specified zero-based index."
               value={attributes.focusAtValue}
               onChange={(value) => setAttributes({ focusAtValue: value })}
               min={0}
-              max={slideCount}
+              max={slideCount-1}
               step={1}
               disabled={props.attributes.focusAtCentered} // Conditionally set the `disabled` attribute
             />

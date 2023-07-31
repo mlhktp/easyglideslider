@@ -44,7 +44,7 @@ class GlideJS {
       var glide = new Glide(currentSlideshow, {
         type: type || "carousel",
         perView: perViewValue || 1,
-        startAt: (startAtValue - 1)|| 0,
+        startAt: (startAtValue)|| 0,
         focusAt: focusAtCentered ? "center" : focusAtValue || 0,
         gap: gap || 10,
         autoplay: autoplay || false,
@@ -53,7 +53,7 @@ class GlideJS {
         bound: bound === "true",
         swipeThreshold: swipeThreshold || 80,
         dragThreshold: dragThreshold || 120,
-        perTouch: perTouch === "true",
+        perTouch: perTouch || false,
         touchRatio: touchRatio || 0.5,
         touchAngle: touchAngle || 45,
         animationDuration: animationDuration || 400,

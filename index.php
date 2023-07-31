@@ -1,13 +1,16 @@
 <?php
 /*
-  Plugin Name: Easy Glide Slider
-  Text Domain: easyglideslider
-  Version: 1.0.0
-  Description: Easy Glide Slider is a free and user-friendly WordPress plugin that brings the power of GlideJS to effortlessly customize stunning image carousels and slideshows on your website.
-  Author: Melih Aktop
-  Author URI: https://github.com/mlhktp/
-  License: GPLv2 or later
-*/
+ * Plugin Name:       Easy Glide Slider
+ * Description:       Easy Glide Slider is a free and user-friendly WordPress plugin that utilizes Glide.js to create beautiful and interactive sliders in Gutenberg blocks.
+ * Version:           1.0
+ * Requires at least: 5.7
+ * Tested up to:      6.2
+ * Author:            Melih Aktop
+ * Author URI:        https://github.com/mlhktp/
+ * License:           GPL v2 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:       easyglideslider
+ */
 
 if (!defined('ABSPATH')) exit; // Exit if accessed directly
 
