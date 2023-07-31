@@ -1,23 +1,13 @@
 # Easy Glide Slider WordPress Plugin
 
-![Easy Glide Slider Logo](/assets/logo.png)
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="/assets/logo.png" alt="Easy Glide Slider Logo" width="400">
+</div>
 
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/easy-glide-slider)](https://wordpress.org/plugins/easy-glide-slider/)
 [![License](https://img.shields.io/github/license/mlhktp/easyglideslider)](LICENSE)
 
 Easy Glide Slider is a free WordPress plugin that utilizes Glide.js to create beautiful and interactive sliders in Gutenberg blocks.
-
-
-## Screenshots
-
-![Screenshot 1](/assets/screenshot-1.png)
-*You can add blocks to your slider in the Gutenberg editor by clicking the "+" icon and searching for the block you want to add.*
-
-![Screenshot 2](/assets/screenshot-2.png)
-*You can customize the appearance of your slider by adjusting the various options provided in the Gutenberg editor's sidebar.*
-
-![Screenshot 3](/assets/screenshot-3.png)
-*Published sliders will display as expected on the front-end of your site.*
 
 ## Features
 
@@ -70,6 +60,20 @@ The Easy Glide Slider plugin provides a wide range of customization options to t
 - Direction: Set the direction of the slider (left-to-right or right-to-left).
 - Peek Before/After: Define the number of pixels visible on the left/right side of the active slide.
 - Throttle: Set the time in milliseconds between two consecutive mousewheel or touchmove events.
+
+## Screenshots
+
+![Screenshot 1](/assets/screenshot-1.png)
+<br>
+*You can add blocks to your slider in the Gutenberg editor by clicking the "+" icon and searching for the block you want to add.*
+
+![Screenshot 2](/assets/screenshot-2.png)
+<br>
+*You can customize the appearance of your slider by adjusting the various options provided in the Gutenberg editor's sidebar.*
+
+![Screenshot 3](/assets/screenshot-3.png)
+<br>
+*Published sliders will display as expected on the front-end of your site.*
 
 ## Support and Contributions
 
