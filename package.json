@@ -1,6 +1,6 @@
 {
   "name": "easyglideslider",
-  "version": "1.0.0",
+  "version": "1.0.0", 
   "description": "Easy Glide Slider is a free and user-friendly WordPress plugin that utilizes Glide.js to create beautiful and interactive sliders in Gutenberg blocks.",
   "main": "easyglideslidermain.js",
   "scripts": {

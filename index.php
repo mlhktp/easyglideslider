@@ -21,13 +21,13 @@ class EasyGlideSlider
     add_action('init', array($this, 'adminAssets'));
 
     add_action('wp_enqueue_scripts', array($this, 'easyglideslider_styles'));
-    
+
     //admin
     add_action('admin_enqueue_scripts', array($this, 'easyglideslider_styles'));
   }
   function adminAssets()
   {
-    wp_register_script('easyglidesliderblock', plugin_dir_url(__FILE__) . 'build/easyglideslidermain.js', array('wp-blocks', 'wp-element','wp-editor'));
+    wp_register_script('easyglidesliderblock', plugin_dir_url(__FILE__) . 'build/easyglideslidermain.js', array('wp-blocks', 'wp-element', 'wp-editor'));
     register_block_type(
       'easyglidesliderplugin/easyglide-slider',
       array(
@@ -49,11 +49,11 @@ class EasyGlideSlider
   {
     wp_enqueue_style(
       'easyglideslider-styles',
-      plugin_dir_url( __FILE__ ) . 'build/style-easyglideslidermain.css'
+      plugin_dir_url(__FILE__) . 'build/style-easyglideslidermain.css'
     );
     wp_enqueue_style(
       'easyglideslider-styles',
-      plugin_dir_url( __FILE__ ) . 'build/easyglideslidermain.css'
+      plugin_dir_url(__FILE__) . 'build/easyglideslidermain.css'
     );
   }
   function easyglidesliderRenderCallbackMain($attributes, $content)
@@ -68,6 +68,5 @@ class EasyGlideSlider
     require WP_PLUGIN_DIR . '/easyglideslider/src/easyglideoneslide.php';
     return ob_get_clean();
   }
-
 }
 $easyglideSlider = new EasyGlideSlider();

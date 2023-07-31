@@ -89,7 +89,7 @@ function EditComponent(props) {
               value={attributes.startAtValue}
               onChange={(value) => setAttributes({ startAtValue: value })}
               min={0}
-              max={slideCount-1}
+              max={slideCount - 1}
               step={1}
             />
           </PanelRow>
@@ -113,7 +113,7 @@ function EditComponent(props) {
               value={attributes.focusAtValue}
               onChange={(value) => setAttributes({ focusAtValue: value })}
               min={0}
-              max={slideCount-1}
+              max={slideCount - 1}
               step={1}
               disabled={props.attributes.focusAtCentered} // Conditionally set the `disabled` attribute
             />
