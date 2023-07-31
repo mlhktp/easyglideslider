@@ -83,7 +83,7 @@ Contributions to the Easy Glide Slider plugin are welcome. If you'd like to cont
 
 ## License
 
-Easy Glide Slider is licensed under the [GNU General Public License v2.1](https://www.gnu.org/licenses/gpl-2.0.html). Feel free to use, modify, and distribute this plugin following the license terms.
+Easy Glide Slider is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html). Feel free to use, modify, and distribute this plugin following the license terms.
 
 ## Buy Me a Coffee
 
