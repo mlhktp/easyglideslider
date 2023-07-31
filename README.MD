@@ -1,9 +1,23 @@
 # Easy Glide Slider WordPress Plugin
 
+![Easy Glide Slider Logo](/assets/logo.png)
+
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/easy-glide-slider)](https://wordpress.org/plugins/easy-glide-slider/)
 [![License](https://img.shields.io/github/license/mlhktp/easyglideslider)](LICENSE)
 
 Easy Glide Slider is a free WordPress plugin that utilizes Glide.js to create beautiful and interactive sliders in Gutenberg blocks.
+
+
+## Screenshots
+
+![Screenshot 1](/assets/screenshot-1.png)
+*You can add blocks to your slider in the Gutenberg editor by clicking the "+" icon and searching for the block you want to add.*
+
+![Screenshot 2](/assets/screenshot-2.png)
+*You can customize the appearance of your slider by adjusting the various options provided in the Gutenberg editor's sidebar.*
+
+![Screenshot 3](/assets/screenshot-3.png)
+*Published sliders will display as expected on the front-end of your site.*
 
 ## Features
 
